@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE configuration [
+<!ELEMENT configuration (port, queueSize, datagramPort)>
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT queueSize (#PCDATA)>
+<!ELEMENT datagramPort (#PCDATA)>
+]>
+<configuration>
+    <port>3000</port>
+    <queueSize>50</queueSize>
+    <datagramPort>6000</datagramPort>
+</configuration>
